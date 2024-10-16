@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .blur{
+            opacity: 0.4;
+        }
+        .winner{
+            background-color:rgba(48, 180, 48, 0.825);
+        }
+        .loser{
+            background-color:rgba(236, 60, 60, 0.853);
+        }
+    </style>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div id="select">
+            <h1 id="fg">Football Game</h1>
+        <section id="teamimg">
+        <span><img id="im1" alt="Team 1" src="isl.png"></span>
+        <span id="v">V</span>
+        <span id="slash">/</span>
+        <span id="S">S</span>
+        <span><img id="im2" alt="Team 2" src="isl.png"></span>
+        </section>
+        <br>
+        <h1><span id="p1">0</span><span id="p2">0</span></h1>
+        <div><button id="create">Create a Match</button></div>
+        <h1 id="head">Lets Play!!!</h1>
+        <button id="p1btn">Team 1</button>
+        <button id="p2btn">Team 2</button>
+        <button id="set">Reset</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
